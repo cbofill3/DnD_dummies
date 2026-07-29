@@ -88,6 +88,18 @@ varias acciones. Cuando algo cambió, acá te enseñamos solo la versión nueva.
 
 ---
 
+## Licencia y contribuciones
+
+Esto es [CC BY-NC-SA 4.0](LICENSE): puedes compartirlo y adaptarlo sin fines
+comerciales, dando crédito y manteniendo la misma licencia. Úsalo en tu mesa, imprímelo,
+forkéalo y cámbialo.
+
+**El repo no acepta contribuciones externas** — es material de enseñanza de un solo
+autor y los pull requests se cierran solos. Si encontraste un error, arréglalo en tu
+fork. Detalle en [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+---
+
 ## Para quien mantenga este repo
 
 Las convenciones (qué se cita, qué idioma va dónde, cómo se verifica un número antes de

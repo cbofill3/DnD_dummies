@@ -1,0 +1,47 @@
+name: Close external PRs
+
+# This repo takes no outside contributions. GitHub does not allow disabling pull
+# requests outright, and forking cannot be turned off on a personal public repo,
+# so anyone can still open one. This closes those immediately with an explanation
+# rather than leaving them to sit unanswered.
+#
+# pull_request_target (not pull_request) so the job runs in the base repo's
+# context and its token can actually write to the PR. It checks out no code and
+# runs nothing from the fork, which is what makes that safe.
+
+on:
+  pull_request_target:
+    types: [opened, reopened]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  close:
+    if: github.event.pull_request.user.login != github.repository_owner
+    runs-on: ubuntu-latest
+    steps:
+      - name: Comment and close
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR: ${{ github.event.pull_request.html_url }}
+        run: |
+          gh pr comment "$PR" --body "$(cat <<'EOF'
+          ¡Gracias por el interés! Este repo no acepta contribuciones externas: es
+          material de enseñanza con un solo autor, así que los pull requests se
+          cierran automáticamente.
+
+          Eres libre de clonarlo, forkearlo y adaptarlo para tu propia mesa — la
+          licencia (CC BY-NC-SA 4.0) lo permite explícitamente. Si encontraste un
+          error en una regla o un número, la mejor forma de avisar es un fork con
+          el arreglo, para que quien lo necesite lo encuentre.
+
+          ---
+
+          Thanks for the interest! This repo doesn't take outside contributions —
+          it's single-author teaching material, so pull requests are closed
+          automatically. You're welcome to clone, fork and adapt it for your own
+          table; the CC BY-NC-SA 4.0 license explicitly allows it.
+          EOF
+          )"
+          gh pr close "$PR"
