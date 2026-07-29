@@ -31,8 +31,9 @@ todos.
    intenta, déjalos.
 2. **Danek está vivo** y sigue vivo pase lo que pase, salvo que los jugadores hagan algo
    muy tonto. No lo mates para subir el drama.
-3. **Osma miente por omisión.** Danek le debía plata a un contrabandista y ella lo sabe.
-   No es relevante para resolver la aventura; es el hilo del que tirar si quieren seguir.
+3. **Osma miente por omisión.** Los 80 GP se los prestó ella misma, a un interés que el
+   pueblo no aprobaría, y no piensa contarlo. No es relevante para resolver la aventura;
+   es el hilo del que tirar si quieren seguir.
 
 ---
 

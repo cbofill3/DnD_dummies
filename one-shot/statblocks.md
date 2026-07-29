@@ -165,8 +165,9 @@ arma la banda con Goblin Warriors (50 c/u) y Goblin Minions (25 c/u).
 **Snik nunca se saca.** Es la escena: el que habla, el que negocia y el que arranca con la
 llave. Si hay que recortar, recorta a los otros.
 
-Con **3 jugadores**, deja fuera a Borin o a Pip, **nunca a Vera**. Sin curación una
-partida de nivel 1 se vuelve una carnicería.
+Con **3 jugadores**, saca al que menos entusiasme a la mesa — **nunca a Vera**: sin
+curación una partida de nivel 1 se vuelve una carnicería. Si da lo mismo, que salga
+Borin o Pip, que son los que más se pisan el rol entre sí.
 
 ### Con uno o dos jugadores
 
