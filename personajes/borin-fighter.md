@@ -52,6 +52,7 @@
 | **Greatsword** | **+5** | **2d6 + 3** slashing | A dos manos |
 | **Flail** | **+5** | **1d8 + 3** bludgeoning | Una mano |
 | **Javelin** (lanzada) | **+5** | **1d6 + 3** piercing | Alcance 30/120 feet. Tienes 8 |
+| **Spear** | **+5** | **1d6 + 3** piercing | Una mano; a dos manos hace 1d8 + 3. Se lanza 20/60 feet |
 | **Shortbow** | +3 | 1d6 + 1 piercing | Alcance 80/320 feet. 20 arrows |
 
 ### Weapon Mastery

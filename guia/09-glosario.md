@@ -44,7 +44,7 @@ página es la traducción, para cuando no cachas qué significa una palabra.
 | **Turn** | Turno — tu momento dentro de la round |
 | **Action** | Acción — una por turno |
 | **Bonus Action** | Acción adicional — solo si algo te la da |
-| **Reaction** | Reacción — una respuesta a un gatillo; una por round |
+| **Reaction** | Reacción — una respuesta a un gatillo; la recuperas al empezar tu turno |
 | **Opportunity Attack** | Ataque de oportunidad |
 | **Reach** | Alcance — normalmente 5 feet |
 | **Speed** | Velocidad — cuánto te mueves en un turno |

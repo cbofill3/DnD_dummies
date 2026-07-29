@@ -28,7 +28,7 @@ from pathlib import Path
 # therefore means reproducing that layout:
 #
 #     Desktop/
-#       DnD/          <- this repo
+#       DnD_dummies/  <- this repo
 #       Dnd Books/    <- the PDFs and _text/
 #
 # Override with the DND_BOOKS env var if the books live somewhere else.

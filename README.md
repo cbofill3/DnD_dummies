@@ -125,6 +125,11 @@ Esto es [CC BY-NC-SA 4.0](LICENSE): puedes compartirlo y adaptarlo sin fines
 comerciales, dando crédito y manteniendo la misma licencia. Úsalo en tu mesa, imprímelo,
 forkéalo y cámbialo.
 
+Las reglas, statblocks y spells provienen del **System Reference Document 5.2** de
+Wizards of the Coast, disponible bajo licencia
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Este repo no está afiliado a
+Wizards of the Coast ni cuenta con su respaldo.
+
 **El repo no acepta contribuciones externas** — es material de enseñanza de un solo
 autor y los pull requests se cierran solos. Si encontraste un error, arréglalo en tu
 fork. Detalle en [`CONTRIBUTING.md`](CONTRIBUTING.md).

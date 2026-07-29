@@ -47,7 +47,8 @@ todos.
 > las manos manchadas de tinta que los estaba esperando desde antes de que llegaran.
 >
 > —Ustedes son los que vienen por lo del molino —dice. No es una pregunta—. Soy Osma.
-> Veinticinco piezas de oro, y las quiero de vuelta si Danek aparece muerto.
+> Veinticinco piezas de oro. Cuarenta si Danek vuelve caminando. Y las quiero de vuelta
+> si aparece muerto.
 
 ### Osma
 
