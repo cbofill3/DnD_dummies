@@ -1,0 +1,33 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+
+# Local Claude settings (keep .claude/skills and .claude/settings.json tracked)
+.claude/settings.local.json
+
+# Scratch
+scratch/
+*.tmp
+
+# Rulebooks. The PDFs and their extracted text live in a `Dnd Books/` directory
+# alongside this repo — deliberately, because they're copyrighted. These patterns
+# are a safety net against an accidental copy-in. See .claude/reference/books.md.
+#
+# NOTE: `*.pdf` is deliberately broad, so it will also catch a PDF you actually
+# want to keep — a printable handout or map, say. That's the trade: silently
+# ignoring your own file is recoverable, committing a rulebook isn't. To keep one
+# on purpose, force it: `git add -f campaigns/current/<path>.pdf`
+*.pdf
+_text/
+phb-*.txt
+dmg-*.txt
+mm-*.txt
+
+# Python bytecode from .claude/tools/
+__pycache__/
+*.pyc

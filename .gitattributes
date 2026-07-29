@@ -1,0 +1,4 @@
+# Campaign content is Markdown edited on multiple machines. Pin line endings so a
+# checkout on another OS doesn't produce whole-file diffs where nothing changed.
+* text=auto eol=lf
+*.md text eol=lf

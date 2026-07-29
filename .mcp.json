@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "dnd-rules": {
+      "command": "node",
+      "args": [
+        "${USERPROFILE}/tools/dnd-rules-mcp-server/build/index.js"
+      ]
+    }
+  }
+}
