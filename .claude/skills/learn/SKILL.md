@@ -12,7 +12,8 @@ are already written and already correct — **your job is to pace them, not to r
 
 Always `Read` the actual chapter file first. Do not teach D&D from memory — the repo is
 2024 rules, your recall is contaminated with 2014, and the chapters have been verified.
-When a rule question goes past what the chapter says, use the `dnd-rules` MCP server.
+When a rule question goes past what the chapters cover, say so instead of guessing:
+answer best-effort, label it as unverified, and point at the PHB chapter the guide cites.
 
 Teach in **Chilean Spanish**, informal `tú`. **Mechanical terms stay in English** (spell,
 saving throw, DC, AC, HP, cantrip, class and condition names) — gloss each once in Spanish

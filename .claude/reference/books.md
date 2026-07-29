@@ -6,48 +6,20 @@ worse than no number.
 
 ## The sources, in order of authority
 
-**1. `dnd-rules` MCP server (Open5e, 2024 SRD).** The only source whose *numbers* are
-machine-exact. Use it first for any statblock, spell, condition, magic item, or class
-feature that exists in the SRD. Tools: `dnd_get_spell`, `dnd_get_creature`,
-`dnd_search_creatures`, `dnd_get_magic_item`, `dnd_get_condition`, `dnd_get_rule`, etc.
-
-### Reading MCP responses correctly
-
-The MCP returns **several editions in one payload**, and its top-level labels lie. A
-`dnd_get_condition("Frightened")` response carries a `descriptions` array with three
-entries, while the top-level `gamesystem` reads `5th Edition 2014`:
-
-| `document` / `gamesystem` | What it actually is | Use it? |
-|---|---|---|
-| `srd-2024` / `5e-2024` | 2024 SRD — this repo's default | **Yes** |
-| `srd-2014` / `5e-2014` | 2014 SRD | Only as labelled **[2014]** fallback |
-| `a5e-ag` / `a5e` | *Level Up: Advanced 5e* — a **different game** | **Never** |
-
-So:
-
-- **Pick the `srd-2024` entry out of `descriptions[]`.** Don't take the first one, and
-  don't read the top-level `gamesystem` as the answer's edition — it frequently says 2014
-  even when a 2024 description is present.
-- **`a5e` is not D&D.** It's a separate publisher's system, and teaching its rules to a
-  beginner would leave them unable to play at a real table.
-- If only `srd-2014` exists, that's a genuine 2014 fallback: use it and label it
-  **[2014]**, per `CLAUDE.md`.
-
-**2. The DMG text.** Clean, native, English. Trustworthy for both prose and numbers.
+**1. The DMG text.** Clean, native, English. Trustworthy for both prose and numbers.
 This is the one book you can quote tables from directly — the XP budget table in
 `one-shot/` came from here.
 
-**3. The PHB text.** English, OCR'd. Prose is good; numbers are not guaranteed — the OCR
+**2. The PHB text.** English, OCR'd. Prose is good; numbers are not guaranteed — the OCR
 sprays spaces through words and swaps digits (`LE VE L b: ROVI NG` is `LEVEL 6: ROVING`).
 Good for rules *descriptions* — the 2024 Actions table and the Short/Long Rest glossary
-entries both came from here — but cross-check every value against the MCP or the
-rendered page.
+entries both came from here — but cross-check every value against the rendered page.
 
-**4. The MM text.** OCR'd from a scan, and **the numbers are corrupted**. Use it for
+**3. The MM text.** OCR'd from a scan, and **the numbers are corrupted**. Use it for
 lore, habitat, behaviour and flavour — never for mechanics.
 
-**5. The PDF page, rendered as an image.** The fallback when a number matters, the SRD
-doesn't have it, and the OCR is garbage. See "Reading a page for real" below.
+**4. The PDF page, rendered as an image.** The definitive check whenever a number
+matters and the source is OCR'd. See "Reading a page for real" below.
 
 ## The books
 
@@ -161,9 +133,9 @@ Real examples pulled from the extracted Monster Manual:
 missing spaces between words. The DMG's XP budget table extracts with its three columns
 interleaved out of order — realign it against a row you can sanity-check before using it.
 
-**So: never state a number that came only from OCR'd text.** Confirm it via the MCP or by
-rendering the page. If you genuinely can't confirm it, leave it out — a beginner will
-copy whatever you write straight onto their character sheet.
+**So: never state a number that came only from OCR'd text.** Confirm it by rendering the
+page. If you genuinely can't confirm it, leave it out — a beginner will copy whatever you
+write straight onto their character sheet.
 
 ## Language
 

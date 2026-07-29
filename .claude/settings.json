@@ -1,5 +1,5 @@
 {
-  "$comment": "Tracked project settings. Local-only overrides go in settings.local.json, which is gitignored. Allowlist covers the read-only lookups agents run constantly, so book searches don't interrupt a session with permission prompts.",
+  "$comment": "Tracked project settings. Local-only overrides go in settings.local.json, which is gitignored. Allowlist covers the read-only lookups that run constantly, so book searches don't interrupt a session with permission prompts.",
   "permissions": {
     "allow": [
       "Bash(python .claude/tools/booksearch.py:*)",
@@ -7,21 +7,7 @@
       "Bash(git status:*)",
       "Bash(git diff:*)",
       "Bash(git log:*)",
-      "Bash(git show:*)",
-      "mcp__dnd-rules__dnd_get_spell",
-      "mcp__dnd-rules__dnd_get_creature",
-      "mcp__dnd-rules__dnd_search_creatures",
-      "mcp__dnd-rules__dnd_search_spells",
-      "mcp__dnd-rules__dnd_get_condition",
-      "mcp__dnd-rules__dnd_list_conditions",
-      "mcp__dnd-rules__dnd_get_magic_item",
-      "mcp__dnd-rules__dnd_search_magic_items",
-      "mcp__dnd-rules__dnd_get_rule",
-      "mcp__dnd-rules__dnd_search_rules",
-      "mcp__dnd-rules__dnd_get_class",
-      "mcp__dnd-rules__dnd_list_classes",
-      "mcp__dnd-rules__dnd_get_race",
-      "mcp__dnd-rules__dnd_get_background"
+      "Bash(git show:*)"
     ]
   }
 }

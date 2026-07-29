@@ -53,9 +53,13 @@ Don't invoke anything. Look it up and answer in two or three sentences.
 
 - Check [`guia/10-chuleta.md`](../../../guia/10-chuleta.md) and
   [`guia/09-glosario.md`](../../../guia/09-glosario.md) first — they're written for exactly
-  this and they're already correct.
-- For anything not there, use the `dnd-rules` MCP server. **Never answer a rules question
-  from memory** — `CLAUDE.md` is emphatic about this and it's the repo's main failure mode.
+  this and they're already correct. The chapters in `guia/` and
+  [`one-shot/statblocks.md`](../../../one-shot/statblocks.md) cover everything else the
+  repo teaches.
+- **Don't answer from memory what a repo file can answer** — a wrong number is the repo's
+  main failure mode, and your recall mixes 2014 and 2024 rules. If the question goes
+  beyond what's written here, say so plainly, give a best-effort answer labelled as
+  unverified, and point them at the PHB.
 - Link to the chapter that covers it so they can read more if they want.
 
 Then ask if they want to keep going or start playing.

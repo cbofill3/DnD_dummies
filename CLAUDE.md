@@ -15,7 +15,6 @@ sign the guide is explaining too much.
 | `one-shot/` | *La Rueda Rota* — a ~3 hour adventure for level 1 |
 | `personajes/` | Pregenerated level-1 characters, ready to print and play |
 | `.claude/skills/` | `/play`, `/learn`, `/dm` — how Claude runs the repo for a reader |
-| `.claude/agents/` | `rules-lookup`, so MCP payloads stay out of a live game |
 | `.claude/reference/` | How much to trust each rulebook — read before quoting one |
 | `.claude/tools/` | Book search and Monster Manual page lookup |
 
@@ -33,9 +32,9 @@ human can read.
   video or book they've found — and label it **[2014]** when you do.
 - Never invent a rule and present it as official. A simplification made for teaching
   is fine, but say so in the text ("acá lo simplificamos; la regla completa está en…").
-- **Look rules up, don't recall them.** The `dnd-rules` MCP server (Open5e, 2024 SRD
-  with 2014 fallback) is configured in `.mcp.json`. Use it for any spell, statblock,
-  condition, or magic item rather than quoting from memory.
+- **Look rules up, don't recall them.** Model recall mixes 2014 and 2024 rules. Verify
+  any spell, statblock, condition, or magic item against the books (below) before
+  writing it down; during play, the repo's own verified files are the source.
 - **The full books cover what the SRD doesn't.** The PHB, DMG and MM live in a
   `Dnd Books/` directory sitting **alongside** this repo — never inside it, because
   they're copyrighted. Search them with `python .claude/tools/booksearch.py`, which
@@ -50,8 +49,8 @@ human can read.
 - **Reader-facing content is written in Chilean Spanish.** Everything in `guia/`,
   `one-shot/` and `personajes/` is Spanish. **D&D mechanical terms stay in English** —
   spell, cantrip, saving throw, DC, AC, HP, CR, XP, class names, condition names,
-  statblock terms — because the table plays with English books and every `dnd-rules`
-  lookup returns English.
+  statblock terms — because the table plays with English books, and everything a reader
+  finds searching (apps, videos, the books themselves) is in English.
 - The first time a mechanical term appears in a chapter, gloss it once in Spanish and
   then use the English term from there on. `guia/09-glosario.md` is the full
   English↔Spanish list; link to it rather than re-glossing everywhere.

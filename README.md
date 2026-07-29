@@ -147,8 +147,8 @@ repo: quien lo clone los tiene sin instalar nada. Están escritas en inglés a p
 matemática de encuentros no está duplicada en ellas: la leen de
 [`one-shot/statblocks.md`](one-shot/statblocks.md), que es la única fuente.
 
-Las reglas se verifican contra el **SRD 2024** vía el MCP server configurado en
-`.mcp.json`, y contra los libros con `.claude/tools/booksearch.py`. Los libros viven
+Las reglas se verifican contra los libros con `.claude/tools/booksearch.py`,
+renderizando la página real cuando el número importa. Los libros viven
 **afuera** del repo, en un directorio `Dnd Books/` al lado, porque tienen copyright y
 esto es un repo público. Cuánto se puede confiar en cada fuente está en
 [`.claude/reference/books.md`](.claude/reference/books.md) — **lectura obligatoria antes

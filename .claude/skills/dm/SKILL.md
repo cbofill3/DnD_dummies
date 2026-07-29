@@ -109,20 +109,21 @@ happened and where they stopped.
 
 ## When the rules run out
 
-**Look it up — don't recall it.** Use the `dnd-rules` MCP server for any spell, condition
-or statblock detail not already written in `one-shot/statblocks.md` or
-[`guia/10-chuleta.md`](../../../guia/10-chuleta.md). Getting a number wrong here is the
-repo's stated worst failure: a beginner can't tell your mistake from a rule.
+**The repo is the rulebook.** Every number the adventure needs is already verified and
+written down: monsters in `one-shot/statblocks.md`, the players' spells and features on
+their sheets in `personajes/`, everything else in
+[`guia/10-chuleta.md`](../../../guia/10-chuleta.md) and
+[`guia/08-conditions.md`](../../../guia/08-conditions.md). Read the file — don't answer
+from memory. Getting a number wrong here is the repo's stated worst failure: a beginner
+can't tell your mistake from a rule.
 
-For a long lookup mid-combat, delegate to the **`rules-lookup`** agent so the table doesn't
-fill up with rulebook payloads.
+**Past the repo's files, rule — don't recall.** Your memory mixes 2014 and 2024 rules,
+so don't present recall as the official rule. Make a reasonable table ruling, say out
+loud that it's a ruling, and keep playing — `one-shot/README.md` is right that a ten
+minute rules search kills more first sessions than a wrong ruling ever has.
 
-**But don't stop the game for it.** `one-shot/README.md` is right: rule an obvious DC out
-loud, keep playing, check later. A ten minute rules search kills more first sessions than a
-wrong ruling ever has.
-
-**The player doesn't own the books.** The PHB/DMG/MM tooling in `.claude/` is for the repo's
-maintainer and won't work on their machine. Everything you need is the SRD via MCP plus
+**The book tooling isn't for play.** The PHB/DMG/MM tools in `.claude/` are for the
+repo's maintainer and won't work on a player's machine. Everything a session needs is in
 this repo, which is self-sufficient by design.
 
 ## Closing
