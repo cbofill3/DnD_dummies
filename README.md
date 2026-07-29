@@ -3,9 +3,33 @@
 Una guía para aprender a jugar **Dungeons & Dragons** desde cero, en castellano, con una
 aventura corta lista para jugar y cuatro personajes ya armados.
 
-**No necesitas los libros. No necesitas saber nada. Necesitas dados y un par de amigos.**
+**No necesitas los libros. No necesitas saber nada.** Con dados y un par de amigos te
+sobra — y si no tienes ni lo uno ni lo otro, [Claude te dirige la partida](#jugar-con-claude).
 
 Usa el **ruleset 2024** (el que también llaman 5.5e).
+
+---
+
+## Jugar con Claude
+
+Si tienes [Claude Code](https://claude.com/claude-code) instalado, no necesitas leer nada
+ni buscar con quién jugar. Abre este repo y escribe:
+
+```
+/play
+```
+
+Claude te pregunta qué necesitas y toma el camino que corresponda:
+
+| Comando | Qué hace |
+|---|---|
+| `/play` | La puerta de entrada. Si no sabes por dónde empezar, parte acá |
+| `/learn` | Te enseña las reglas de a una, con tiradas de práctica |
+| `/dm` | **Claude dirige *La Rueda Rota* para ti.** Puedes jugar solo |
+
+Funciona con dados de verdad o sin ninguno — si no tienes, Claude tira por ti y te dice
+qué salió. Y si prefieres jugar con amigos y que dirija una persona, el repo está escrito
+para eso desde el principio: anda a [Cómo dirigir esto](one-shot/README.md).
 
 ---
 
@@ -17,6 +41,7 @@ Usa el **ruleset 2024** (el que también llaman 5.5e).
 | **Jugador, con la partida el viernes** | [10 · Chuleta](guia/10-chuleta.md) y tu [personaje](personajes/README.md) |
 | **El que va a dirigir** | [Cómo dirigir esto](one-shot/README.md) |
 | **Alguien buscando una regla puntual** | [09 · Glosario](guia/09-glosario.md) o la [chuleta](guia/10-chuleta.md) |
+| **Solo, sin grupo y sin dados** | [Jugar con Claude](#jugar-con-claude) — escribe `/play` |
 
 ---
 
@@ -45,7 +70,8 @@ Si solo vas a leer un capítulo antes de tu primera partida, que sea el
 
 ## La aventura
 
-**[La Rueda Rota](one-shot/aventura.md)** — unas 3 horas, para 3–5 personajes de nivel 1.
+**[La Rueda Rota](one-shot/aventura.md)** — unas 3 horas, para 1–6 personajes de nivel 1
+(escrita para 4, y se ajusta).
 
 El molino del pueblo dejó de girar y el molinero no volvió. Hay goblins adentro, pero no
 vinieron a saquear: su madriguera se inundó.

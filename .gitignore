@@ -14,6 +14,10 @@ desktop.ini
 scratch/
 *.tmp
 
+# Session state written by the `dm` skill when a game spans more than one
+# conversation. It's someone's savegame, not repo content.
+partida/
+
 # Rulebooks. The PDFs and their extracted text live in a `Dnd Books/` directory
 # alongside this repo — deliberately, because they're copyrighted. These patterns
 # are a safety net against an accidental copy-in. See .claude/reference/books.md.
