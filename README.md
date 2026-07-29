@@ -4,7 +4,8 @@ Una guía para aprender a jugar **Dungeons & Dragons** desde cero, en castellano
 aventura corta lista para jugar y cuatro personajes ya armados.
 
 **No necesitas los libros. No necesitas saber nada.** Con dados y un par de amigos te
-sobra — y si no tienes ni lo uno ni lo otro, [Claude te dirige la partida](#jugar-con-claude).
+sobra — y si te falta cualquiera de las dos cosas,
+[Claude te dirige la partida](#jugar-con-claude).
 
 Usa el **ruleset 2024** (el que también llaman 5.5e).
 
@@ -47,7 +48,8 @@ para eso desde el principio: anda a [Cómo dirigir esto](one-shot/README.md).
 
 ## La guía
 
-Diez capítulos, en orden de lectura. Cada uno agrega una sola idea nueva.
+Once capítulos, en orden de lectura. Cada uno agrega una sola idea nueva. Los tres últimos
+(08, 09 y 10) son de consulta: no se leen de corrido, se tienen abiertos en la mesa.
 
 | # | Capítulo | De qué se trata |
 |---|---|---|
@@ -90,6 +92,9 @@ Se puede terminar **sin pelear**. Los goblins negocian si alguien lo intenta.
 
 Cuatro hojas de **nivel 1** listas para imprimir, con todo calculado. Elige una y juega.
 
+Si van a jugar **una o dos personas**, lleven **dos personajes cada uno** — y que uno sea
+Vera. El [por qué está acá](one-shot/statblocks.md#con-uno-o-dos-jugadores).
+
 | Personaje | Class | HP | AC | Qué hace |
 |---|---|---|---|---|
 | [Borin Pedernal](personajes/borin-fighter.md) | Fighter (Dwarf) | 13 | 17 | Aguanta y pega fuerte |
@@ -130,6 +135,12 @@ fork. Detalle en [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 Las convenciones (qué se cita, qué idioma va dónde, cómo se verifica un número antes de
 escribirlo) están en [`CLAUDE.md`](CLAUDE.md).
+
+Los comandos `/play`, `/learn` y `/dm` son skills en `.claude/skills/`, y viajan con el
+repo: quien lo clone los tiene sin instalar nada. Están escritas en inglés a propósito
+—son instrucciones, no material de mesa— pero le hablan al jugador en castellano. La
+matemática de encuentros no está duplicada en ellas: la leen de
+[`one-shot/statblocks.md`](one-shot/statblocks.md), que es la única fuente.
 
 Las reglas se verifican contra el **SRD 2024** vía el MCP server configurado en
 `.mcp.json`, y contra los libros con `.claude/tools/booksearch.py`. Los libros viven

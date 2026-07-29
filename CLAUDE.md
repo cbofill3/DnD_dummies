@@ -14,8 +14,16 @@ sign the guide is explaining too much.
 | `guia/` | The learn-to-play chapters, numbered in reading order |
 | `one-shot/` | *La Rueda Rota* — a ~3 hour adventure for level 1 |
 | `personajes/` | Pregenerated level-1 characters, ready to print and play |
+| `.claude/skills/` | `/play`, `/learn`, `/dm` — how Claude runs the repo for a reader |
+| `.claude/agents/` | `rules-lookup`, so MCP payloads stay out of a live game |
 | `.claude/reference/` | How much to trust each rulebook — read before quoting one |
 | `.claude/tools/` | Book search and Monster Manual page lookup |
+
+The skills are **reader-facing at runtime but maintainer-facing as files**: written in
+English like everything else under `.claude/`, but they speak Chilean Spanish to the
+player. They must not restate rules or encounter math that already live in `guia/` or
+`one-shot/` — they read those files instead, so there is one source and it's the one a
+human can read.
 
 ## Rules handling
 
