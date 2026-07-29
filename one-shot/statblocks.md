@@ -148,17 +148,41 @@ Si de todos modos te preocupa, tienes tres perillas antes de tocar el número de
 - **Los minions arrancan** cuando muere el segundo goblin.
 - **El agua fría** del canal deja Prone en vez de hacer daño.
 
-### Ajustar por número de jugadores
+### Ajustar por número de personajes
 
-| Jugadores | Presupuesto Low | Enemigos |
+Todo sale del mismo número: **50 XP de presupuesto Low por personaje**. Multiplica y
+arma la banda con Goblin Warriors (50 c/u) y Goblin Minions (25 c/u).
+
+| Personajes | Presupuesto Low | Enemigos en el altillo |
 |---|---|---|
+| **1** | 50 | Snik solo = 50 |
+| **2** | 100 | Snik + 2 Goblin Minions = 100 |
 | **3** | 150 | 2 Goblin Warriors + 2 Goblin Minions = 150 |
 | **4** | 200 | 3 Goblin Warriors + 2 Goblin Minions = 200 ← *como está escrito* |
 | **5** | 250 | 4 Goblin Warriors + 2 Goblin Minions = 250 |
 | **6** | 300 | 5 Goblin Warriors + 2 Goblin Minions = 300 |
 
+**Snik nunca se saca.** Es la escena: el que habla, el que negocia y el que arranca con la
+llave. Si hay que recortar, recorta a los otros.
+
 Con **3 jugadores**, deja fuera a Borin o a Pip, **nunca a Vera**. Sin curación una
 partida de nivel 1 se vuelve una carnicería.
+
+### Con uno o dos jugadores
+
+Se puede, y funciona — pero **que cada uno lleve dos personajes**. Un solo personaje de
+nivel 1 no aguanta: con 8–13 HP, dos malos tiros seguidos y se acabó la partida, sin nadie
+que lo levante del suelo.
+
+Con dos personajes, que uno sea **Vera**. Es la única que puede devolver a alguien desde 0
+HP, y sin eso una caída es el final. **Vera + Borin** es la dupla más sólida.
+
+Llevar dos personajes suena más difícil de lo que es: cada hoja te dice qué hacer en un
+turno normal, y en la práctica es un turno y después el otro.
+
+**Y baja las ratas a una sola.** Dos Giant Rats son 50 XP: para un personaje eso es el
+presupuesto Low completo, o sea que la "pelea de práctica" pasa a ser la pelea seria de la
+noche. Con una rata sigue siendo lo que tiene que ser — un ensayo sin riesgo.
 
 ### XP total de la aventura
 

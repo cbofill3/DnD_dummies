@@ -1,6 +1,11 @@
 # La Rueda Rota
 
-**Aventura para 3–5 personajes de nivel 1 · unas 3 horas**
+**Aventura para 1–6 personajes de nivel 1 · unas 3 horas**
+
+Está escrita para **4**. Con cualquier otro número se ajusta cambiando la cantidad de
+goblins: la tabla está en
+[statblocks.md](statblocks.md#ajustar-por-número-de-personajes). Si son una o dos personas,
+lleven **dos personajes cada uno** — ahí mismo se explica por qué.
 
 Hace tres noches la rueda del molino de Vado Ciego dejó de girar. El molinero, Danek, no
 volvió al pueblo. En cuatro días llega la carreta de la harina, y sin harina el pueblo no
