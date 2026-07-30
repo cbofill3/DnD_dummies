@@ -19,7 +19,8 @@ entries both came from here — but cross-check every value against the rendered
 lore, habitat, behaviour and flavour — never for mechanics.
 
 **4. The PDF page, rendered as an image.** The definitive check whenever a number
-matters and the source is OCR'd. See "Reading a page for real" below.
+matters and the source is OCR'd — but it needs poppler installed, and it goes through a
+PNG rather than the Read tool. See "Reading a page for real" below before relying on it.
 
 ## The books
 
@@ -77,21 +78,36 @@ page. Keep PDF pages for your own verification and for notes to the repo's maint
 
 ## Reading a page for real
 
-`booksearch.py` finds *where* something is. When you need to read it accurately, pass that
-page to the Read tool and it renders the actual page as an image:
+`booksearch.py` finds *where* something is. When you need to read it **accurately**,
+rasterise that page to a PNG and read the image:
 
+```bash
+mkdir -p /tmp/dnd-pages
+pdftoppm -f 147 -l 147 -r 150 -png "<books dir>/Manual de Monstruos - Ingles.pdf" /tmp/dnd-pages/mm
+# then Read the mm-*.png it wrote
 ```
-Read(file_path="<books dir>/Manual de Monstruos - Ingles.pdf", pages="147")
-```
 
-The Read tool needs an **absolute** path, and the books directory differs per machine — so
-don't hand-write it. `mmindex.py` prints a ready-to-paste `Read(...)` call with the correct
-absolute path already filled in; use that. For the other books, resolve `<books dir>` the
-same way the tools do: the `DND_BOOKS` environment variable if set, otherwise `Dnd Books/`
-alongside the repo.
+`mmindex.py` prints this command ready to paste, with the absolute paths already filled
+in — use that rather than hand-writing them. For the other books, resolve `<books dir>`
+the way the tools do: `DND_BOOKS` if set, otherwise `Dnd Books/` alongside the repo. Set
+`DND_RENDER_DIR` to put the PNGs in your session scratchpad instead of the temp dir.
 
-This is the escape hatch for the Monster Manual. Locate the entry, then render the page to
-read its statblock correctly. Max 20 pages per request.
+**Don't pass the PDFs to the Read tool directly.** Two things break it, and the second one
+is permanent:
+
+- Rendering needs **poppler** (`pdftoppm`) on PATH. `pdftotext` — which is what produced
+  `_text/` — often ships without it, so check with `command -v pdftoppm` before trusting
+  this path. On Windows, Git Bash's `/mingw64/bin` typically has `pdftotext` but **not**
+  `pdftoppm`; install poppler (`scoop install poppler`, `choco install poppler`) to get it.
+- The Monster Manual scan is **~315 MB**, over the Read tool's 100 MB ceiling. Read refuses
+  it outright no matter what else is installed. `pdftoppm` has no such limit, which is why
+  the recipe above goes through a PNG.
+
+This is the escape hatch for the Monster Manual: locate the entry, render the page, read
+the statblock off the image. Render a small range — a couple of pages, not twenty.
+
+**If poppler isn't installed and you can't install it, you cannot verify an MM number.**
+Say so and leave the number out rather than transcribing it from the OCR text.
 
 ## Finding a monster by name
 
@@ -101,7 +117,7 @@ the index instead:
 
 ```bash
 python .claude/tools/mmindex.py "displacer beast"   # -> pdf p.101
-python .claude/tools/mmindex.py --list gl           # browse a prefix
+python .claude/tools/mmindex.py --list go           # browse a prefix
 python .claude/tools/mmindex.py --rebuild           # after re-extracting the MM
 ```
 

@@ -4,6 +4,8 @@
     "allow": [
       "Bash(python .claude/tools/booksearch.py:*)",
       "Bash(python .claude/tools/mmindex.py:*)",
+      "Bash(pdftoppm:*)",
+      "Bash(command -v:*)",
       "Bash(git status:*)",
       "Bash(git diff:*)",
       "Bash(git log:*)",

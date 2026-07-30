@@ -259,7 +259,7 @@ saving throws)** para quien se agache detrás.
 
 ### Para leer en voz alta
 
-> El altillo huele a humedad y a goblin. Cuatro bultos chicos se mueven entre
+> El altillo huele a humedad y a goblin. Varios bultos chicos se mueven entre
 > los sacos apilados. En el medio, sobre una caja dada vuelta, hay uno más grande con una
 > capa cosida de sacos de harina y una llave de hierro colgando al cuello.
 >

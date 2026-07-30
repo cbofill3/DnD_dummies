@@ -59,7 +59,7 @@ Once capítulos, en orden de lectura. Cada uno agrega una sola idea nueva. Los t
 | 03 | [Tu personaje](guia/03-tu-personaje.md) | Cómo leer la hoja: abilities, HP, AC, proficiency |
 | 04 | [Cómo se juega](guia/04-como-se-juega.md) | Las acciones, hablar con NPCs, explorar |
 | 05 | [El combate](guia/05-el-combate.md) | Initiative, turnos, atacar, moverse, cover |
-| 06 | [Daño y descanso](guia/06-danio-y-descanso.md) | Daño, críticos, llegar a 0 HP, curarse, descansos |
+| 06 | [Daño, curación y descanso](guia/06-danio-y-descanso.md) | Daño, críticos, llegar a 0 HP, curarse, descansos |
 | 07 | [La magia](guia/07-la-magia.md) | Cantrips, spell slots, concentration |
 | 08 | [Las conditions](guia/08-conditions.md) | Las 15 conditions, para tener abierta en la mesa |
 | 09 | [Glosario](guia/09-glosario.md) | Inglés ↔ castellano de todos los términos |
@@ -126,7 +126,8 @@ comerciales, dando crédito y manteniendo la misma licencia. Úsalo en tu mesa, 
 forkéalo y cámbialo.
 
 Las reglas, statblocks y spells provienen del **System Reference Document 5.2** de
-Wizards of the Coast, disponible bajo licencia
+Wizards of the Coast — el SRD de las reglas 2024, que en la guía citamos como
+*"SRD 2024"* —, disponible bajo licencia
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Este repo no está afiliado a
 Wizards of the Coast ni cuenta con su respaldo.
 

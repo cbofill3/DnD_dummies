@@ -196,7 +196,8 @@ y es como corren el nivel casi todas las mesas.
 
 ---
 
-*Statblocks del System Reference Document 5.2, © Wizards of the Coast, licencia
+*Statblocks del System Reference Document 5.2 (el SRD de las reglas 2024, que en la guía
+aparece citado como "SRD 2024"), © Wizards of the Coast, licencia
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
 
 [Volver a la aventura](aventura.md) · [Cómo dirigir esto](README.md)

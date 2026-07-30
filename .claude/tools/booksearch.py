@@ -12,8 +12,13 @@ Usage:
     python .claude/tools/booksearch.py --toc dmg                   # chapter map
 
 Every hit is reported as `BOOK pdf-page N`. That N is the page index in the PDF
-file: pass it straight to the Read tool's `pages` argument to render the real
-page as an image when the OCR text is untrustworthy.
+file. When the OCR text is untrustworthy, rasterise that page and read the image:
+
+    pdftoppm -f N -l N -r 150 -png "<book>.pdf" /tmp/dnd-pages/page
+
+then Read the PNG. Don't hand the PDF itself to the Read tool — it needs poppler
+installed either way, and the Monster Manual scan is over Read's 100 MB limit.
+See .claude/reference/books.md.
 """
 
 import argparse

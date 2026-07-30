@@ -29,7 +29,7 @@ the first time, then use the English term.
 | 03 | [Tu personaje](../../../guia/03-tu-personaje.md) | Do it with their actual sheet open |
 | 04 | [Cómo se juega](../../../guia/04-como-se-juega.md) | Essential |
 | 05 | [El combate](../../../guia/05-el-combate.md) | Before the first fight |
-| 06 | [Daño y descanso](../../../guia/06-danio-y-descanso.md) | Before the first fight |
+| 06 | [Daño, curación y descanso](../../../guia/06-danio-y-descanso.md) | Before the first fight |
 | 07 | [La magia](../../../guia/07-la-magia.md) | Only if they picked Vera or Ilweth |
 | 08 | [Las conditions](../../../guia/08-conditions.md) | Reference — don't teach it as a chapter |
 | 09 | [Glosario](../../../guia/09-glosario.md) | Reference |

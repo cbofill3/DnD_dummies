@@ -20,6 +20,7 @@ import json
 import os
 import re
 import sys
+import tempfile
 from pathlib import Path
 
 # Same sibling-relative layout as booksearch.py — see the note there. The books sit
@@ -29,8 +30,12 @@ BOOKS_DIR = Path(os.environ.get("DND_BOOKS") or REPO_ROOT.parent / "Dnd Books")
 TEXT_DIR = BOOKS_DIR / "_text"
 SOURCE = TEXT_DIR / "mm-2024.txt"
 INDEX = TEXT_DIR / "mm-index.json"
-# Absolute, because the Read tool needs an absolute path to render the page.
 MM_PDF = BOOKS_DIR / "Manual de Monstruos - Ingles.pdf"
+# Where rendered page images land. The Read tool cannot open the MM directly — the
+# scan is ~315 MB and Read refuses PDFs over 100 MB — so pages get rasterised to PNG
+# first and Read opens those. Point DND_RENDER_DIR at your session scratchpad to keep
+# them out of the way; the default is a temp subdirectory.
+RENDER_DIR = Path(os.environ.get("DND_RENDER_DIR") or Path(tempfile.gettempdir()) / "dnd-pages")
 
 # The A-Z index lives on these PDF pages of the scan.
 INDEX_PAGES = (6, 7)
@@ -235,8 +240,14 @@ def main():
 
     if target is not None:
         lo_p, hi_p = max(1, target - spread), target + spread
-    print(f"\nPage numbers are +/-1 at best. Render the entry to read it accurately:")
-    print(f'  Read(file_path=r"{MM_PDF}", pages="{lo_p}-{hi_p}")')
+    print("\nPage numbers are +/-1 at best. Render the entry to read it accurately:")
+    print(f'  mkdir -p "{RENDER_DIR}"')
+    print(f'  pdftoppm -f {lo_p} -l {hi_p} -r 150 -png "{MM_PDF}" "{RENDER_DIR / "mm"}"')
+    # pdftoppm zero-pads the page number to the digit width of the whole document,
+    # so the exact filename isn't worth predicting here — list the directory.
+    print(f'  then Read the mm-*.png files written to {RENDER_DIR}')
+    print("(pdftoppm needs poppler; Read cannot open the MM PDF itself — the scan is"
+          " over Read's 100 MB limit.)")
     print("Never transcribe a statblock from the OCR text — see .claude/reference/books.md")
 
 

@@ -38,8 +38,9 @@ human can read.
 - **The full books cover what the SRD doesn't.** The PHB, DMG and MM live in a
   `Dnd Books/` directory sitting **alongside** this repo — never inside it, because
   they're copyrighted. Search them with `python .claude/tools/booksearch.py`, which
-  reports PDF page numbers you can pass to the Read tool to render the real page, and
-  find monsters with `python .claude/tools/mmindex.py`.
+  reports PDF page numbers, and find monsters with `python .claude/tools/mmindex.py`.
+  To check a number against the real page, rasterise it with `pdftoppm` and read the
+  PNG — the Read tool can't open these PDFs directly. Both tools print the command.
   **`.claude/reference/books.md` is required reading before quoting any book** — three
   of the four are OCR'd and their numbers are corrupted in specific, documented ways.
   Book text never gets committed to this repo; it's copyrighted.
