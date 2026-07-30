@@ -112,8 +112,9 @@ pasa a 13 + su modificador de Dexterity**. Para ti eso es **AC 15**.
 
 Puedes cambiar cuáles cuatro tienes preparados al terminar un long rest.
 
-> **Magic Initiate (Wizard)**, tu feat de Sage, te da además el spell **Shield**, que
-> puedes lanzar **una vez por long rest sin gastar slot**. Casilla: ☐
+> **Magic Initiate (Wizard)**, tu feat de Sage, es de donde salen **dos de tus seis
+> cantrips**, y te da además el spell **Shield**, que puedes lanzar **una vez por long
+> rest sin gastar slot**. Casilla: ☐
 >
 > **Shield** — ***Reaction***, cuando te pegan con un attack roll o te apuntan con Magic
 > Missile. Hasta el inicio de tu próximo turno tienes **+5 a la AC, incluido contra el
@@ -174,7 +175,7 @@ fallar), Thunderwave cuando te rodean.
 **No te acerques.** Con 8 HP, dos golpes de goblin te dejan en el suelo. Quédate detrás
 de Borin y mantén 30+ feet de distancia.
 
-**Fuera de combate mandas tú.** Cinco skills a +5 o más, Mage Hand para tocar lo que nadie
+**Fuera de combate mandas tú.** Cuatro skills a +5, Mage Hand para tocar lo que nadie
 quiere tocar, y Detect Magic gratis como ritual.
 
 **Quién eres.** Pasaste ochenta años en una biblioteca y llevas seis meses afuera.

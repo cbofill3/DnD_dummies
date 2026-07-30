@@ -101,8 +101,10 @@ Dos cosas:
 
 ## Initiative y Speed
 
-**Initiative** es tu modificador de Dexterity. Se tira al empezar un combate para ver el
-orden de los turnos. Ver [05 · El combate](05-el-combate.md).
+**Initiative** es lo que le sumas al d20 al empezar un combate, para ver el orden de los
+turnos. Casi siempre es tu modificador de Dexterity, pero algunos feats lo suben — **usa
+el número de Initiative de tu hoja**, que ya viene con todo sumado. Ver
+[05 · El combate](05-el-combate.md).
 
 **Speed** es cuántos pies te mueves en un turno. La mayoría de los personajes tienen
 **30 feet**. Se mide en pies porque el juego es gringo; en un mapa cuadriculado, cada

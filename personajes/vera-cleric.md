@@ -95,8 +95,9 @@ criaturas. Cada una suma **1d4** a todos sus attack rolls y saving throws mientr
 Requiere tu Holy Symbol. *(Enorme en una pelea larga — pero es Concentration, así que se
 cae si te pegan y fallas el Constitution save.)*
 
-> **Magic Initiate (Cleric)**, tu feat de Acolyte, te deja lanzar **Cure Wounds una vez
-> por long rest sin gastar slot**. Casilla: ☐
+> **Magic Initiate (Cleric)**, tu feat de Acolyte, es de donde salen **dos de tus seis
+> cantrips**, y te deja lanzar **Cure Wounds una vez por long rest sin gastar slot**.
+> Casilla: ☐
 
 ## Lo que te hace especial
 
@@ -106,8 +107,9 @@ Intelligence (Arcana o Religion) checks. En la práctica tus Religion checks son
 **Resourceful** *(Human)* — ganas **Heroic Inspiration** cada vez que terminas un long
 rest. Guardada, te deja **repetir cualquier d20** una vez.
 
-**Skillful** y **Versatile** *(Human)* — de ahí salen varias de tus skills: eres la que
-más cosas puede intentar del grupo.
+**Skillful** y **Versatile** *(Human)* — Skillful te da una skill extra, y Versatile te
+da un feat de origen: el tuyo es **Skilled**, que da tres skills más. De ahí salen varias
+de tus ocho skills: eres la que más cosas puede intentar del grupo.
 
 ## Ataques
 

@@ -14,9 +14,8 @@ Before the first line of narration:
 
 1. [`one-shot/aventura.md`](../../../one-shot/aventura.md) — the whole adventure.
 2. [`one-shot/statblocks.md`](../../../one-shot/statblocks.md) — every number you'll roll.
-3. [`one-shot/README.md`](../../../one-shot/README.md) — **the DM craft brief.** Describe
-   don't resolve; ask for rolls only when failure is interesting; say yes; DC 15 when in
-   doubt; monsters think, flee, and don't finish off downed characters.
+3. [`one-shot/README.md`](../../../one-shot/README.md) — **the DM craft brief**: how to
+   describe, when to call for rolls, how monsters behave, what to do when things derail.
 
 That third file is the actual instruction set for how to run this well. **Follow it. Don't
 restate it here and don't improvise past it.** Read the players' sheets in
@@ -49,6 +48,21 @@ Ask these in order, one at a time. Don't dump them as a list.
 
 Then the loop, in one sentence: you describe, they say what they do, sometimes they roll.
 
+## Grupo presencial — several players, one keyboard
+
+When a live group plays through one machine, the bottleneck is the screen, not the rules:
+
+- **Find out who's relaying.** Usually one player reads your narration aloud and types for
+  the table. Address characters by name anyway — *"Vera, ¿qué haces?"* — and ask for one
+  player's decision at a time, so the table hears whose moment it is.
+- **Keep narration shorter than for a solo player.** It's being read out loud; three
+  sentences that land beat a paragraph that drones.
+- **Their real dice beat yours.** Let the table roll everything physical and report
+  totals. You still roll monster dice in the open, as below.
+- **In combat, restate the initiative order and current HP every round** — the state
+  table matters more when several people share one screen.
+- **The limits question still happens**: have the relaying player put it to the table.
+
 ## Scaling for a small party — this matters
 
 The adventure is written for **four** level-1 characters. **A solo player against the
@@ -60,10 +74,10 @@ it covers 1 through 6 characters, and it's the source of truth. Read it and use 
 tells you to drop scene 2 to a single Giant Rat for one or two characters, and that **Snik
 is never cut.**
 
-Two things from that section to raise *before* play starts, not during:
+Two things to raise *before* play starts, not during:
 
-- **One or two players should run two characters each**, and one of them should be
-  **Vera** — she's the only way back up from 0 HP. Borin + Vera is the solid pair.
+- **One or two players should run two characters each.** That same section says who to
+  take and why — relay its advice rather than inventing your own pairing.
 - If they refuse and insist on a single character, run the 1-character row and be visibly
   gentler: goblins play for the objective, not the kill.
 

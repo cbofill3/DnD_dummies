@@ -19,8 +19,9 @@ caos.
 ## Initiative
 
 Al empezar el combate, todos tiran **initiative**: un **Dexterity check**, o sea `1d20 +
-tu modificador de Dexterity`. El DM tira por los monstruos — un solo tiro para un grupo
-de criaturas idénticas.
+tu modificador de Dexterity`. En tu hoja el número de Initiative ya viene calculado, y
+puede ser más alto que tu Dexterity si un feat lo mejora — usa el de la hoja. El DM tira
+por los monstruos — un solo tiro para un grupo de criaturas idénticas.
 
 Se ordena de **mayor a menor** y ese orden **se mantiene igual toda la pelea**.
 

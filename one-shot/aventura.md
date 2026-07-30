@@ -109,7 +109,8 @@ solo dan contexto.
 
 El tercer tablón desde el borde está podrido. Quien pase primero sin revisarlo lo pisa.
 
-- **Notarlo:** Passive Perception **12**, o un **DC 10** Wisdom (Perception) check si
+- **Notarlo:** Passive Perception **14** — compárala solo con la del que va **adelante**
+  (para eso sirve el marching order) —, o un **DC 10** Wisdom (Perception) check si
   alguien dice que revisa el puente.
 - **Si lo pisan:** **DC 12 Dexterity saving throw**.
   - **Falla:** caen 10 feet al canal. **1d6 bludgeoning damage**, quedan **Prone** en agua
@@ -119,6 +120,10 @@ El tercer tablón desde el borde está podrido. Quien pase primero sin revisarlo
 
 > **Este es el momento para explicar los saving throws.** *"Tú no elegiste esto: te pasó.
 > Eso es un saving throw. Tira 1d20 y súmale tu modificador de Dexterity."*
+>
+> *(De los cuatro pregens, solo Vera tiene Passive Perception 14+. Si va ella adelante y
+> lo nota, perfecto: premiaste el marching order, y el saving throw de práctica llega
+> igual con la tolva de la Escena 3.)*
 
 ### Las ratas del cárcamo
 
@@ -131,7 +136,7 @@ quien se acerque a la rueda.
 Es una pelea de práctica. Con 7 HP cada una, casi cualquier golpe las mata. Úsala para
 enseñar el procedimiento completo sin apuro:
 
-1. *"Todos tiren initiative: 1d20 más su modificador de Dexterity."*
+1. *"Todos tiren initiative: 1d20 más el número de Initiative de su hoja."*
 2. Anota el orden a la vista de todos.
 3. En cada turno, pregunta: *"¿Te mueves? ¿Qué acción tomas?"*
 4. La primera vez que alguien ataque, di el procedimiento en voz alta: dado, más el bonus,
@@ -204,16 +209,17 @@ como barricada. Danek se defendió.
 **Un cuaderno de cuentas bajo el jergón** — **DC 14** Intelligence (Investigation).
 Danek le debía **80 GP a Osma**. La última anotación, hace cuatro días: *"O. dice que si
 no pago el jueves manda a alguien. No creí que hablara en serio."* *(Osma no mandó a
-nadie. Los goblins son coincidencia. Pero Danek murió de miedo creyendo que sí — y eso es
-un hilo estupendo para una segunda sesión.)*
+nadie. Los goblins son coincidencia. Pero Danek pasó estos días aterrado, convencido de
+que sí — y eso es un hilo estupendo para una segunda sesión.)*
 
 ### La tolva
 
 La tolva de madera cuelga sobre la piedra de moler. Los goblins le pusieron una cuerda:
 si alguien pasa por debajo, se suelta y les cae encima un quintal de grano rancio.
 
-- **Notarla:** Passive Perception **13**, o **DC 13** Wisdom (Perception) si alguien dice
-  que revisa el techo o la tolva.
+- **Notarla:** Passive Perception **16** — está arriba, fuera de la vista de quien no
+  mire el techo; con estos pregens nadie la nota de pasada, y esa es la gracia —, o
+  **DC 13** Wisdom (Perception) si alguien dice que revisa el techo o la tolva.
 - **Desarmarla:** **DC 12** Dexterity check con Thieves' Tools, o cortar la cuerda desde
   lejos, o mandar un **Mage Hand** *(Ilweth)*.
 - **Si se dispara:** **DC 13 Dexterity saving throw**. Falla: **2d6 bludgeoning damage**
@@ -253,7 +259,7 @@ saving throws)** para quien se agache detrás.
 
 ### Para leer en voz alta
 
-> El altillo huele a humedad y a goblin. Media docena de bultos chicos se mueven entre
+> El altillo huele a humedad y a goblin. Cuatro bultos chicos se mueven entre
 > los sacos apilados. En el medio, sobre una caja dada vuelta, hay uno más grande con una
 > capa cosida de sacos de harina y una llave de hierro colgando al cuello.
 >

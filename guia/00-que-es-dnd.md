@@ -56,7 +56,7 @@ Ese bucle se ve distinto según en qué estén. Se suele hablar de **tres pilare
 | **Interacción social** | Hablar con gente que no es de nadie | Convencer al alcalde, mentirle a un guardia, negociar con el goblin |
 | **Combate** | Pelear | Los tres goblins del molino |
 
-El combate es la parte con más reglas, y por eso ocupa más páginas — en este guía y en
+El combate es la parte con más reglas, y por eso ocupa más páginas — en esta guía y en
 todos los libros. Eso **no** significa que sea la parte más importante de la partida. Una
 mesa puede tener una sesión entera sin un solo dado de daño y estar buenísima.
 

@@ -100,8 +100,9 @@ Cuando alguien intente algo y no sepas qué tan difícil es:
 
 ## Correr un combate sin enredarte
 
-1. **"Todos tiren initiative"** — `1d20 + su modificador de Dexterity`. Tú tiras **uno
-   solo** para cada grupo de monstruos idénticos.
+1. **"Todos tiren initiative"** — `1d20 + el número de Initiative de su hoja` (casi
+   siempre es su modificador de Dexterity, pero a Pip un feat se lo sube). Tú tiras
+   **uno solo** para cada grupo de monstruos idénticos.
 2. **Anota el orden donde todos lo vean.** Un papel, el chat, lo que sea.
 3. **En cada turno pregunta lo mismo:** *"¿Te mueves? ¿Qué acción tomas?"*
 4. **Avísale al siguiente:** *"Vas tú, Vera, y después Pip."* Así van pensando.
